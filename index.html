@@ -1,0 +1,176 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>SuperFan Movies Project</title>
+		<link href="https://fonts.googleapis.com/css?family=McLaren&display=swap" rel="stylesheet">
+		<link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+		<link rel="stylesheet" href="superfan.css">
+	</head>
+
+	<body>
+		<div class= "title">
+			<div class="lbox"></div>
+			<div class="lbox"></div>
+			<div class="lbox center">
+				<img class="img" id="Reset" src="images/movieslogo.png" onclick="restart(this)">
+			</div>
+			<div class="lbox"></div>
+			<div class="lbox"></div>
+		</div>
+		<div class= "upbox">
+			<div class= "lbbox">
+				<div class="movies" id="mcumovies">
+					<div class="tetralogy">
+						<img class="img" id="theavengers" src="images/MCU_Images/TA.jpg" onclick="changeta(this)">
+					</div>
+					<div class="tetralogy">
+						<img class="img" id="avengersageofultron" src="images/MCU_Images/AAOU.jpg" onclick="changeaaou(this)">
+					</div>
+					<div class="tetralogy">	
+						<img class="img" id="avengersinfinitywar" src="images/MCU_Images/AIW.jpg" onclick="changeaiw(this)">
+					</div>
+					<div class="tetralogy">
+						<img class="img" id="avengersendgame" src="images/MCU_Images/AE.jpg" onclick="changeae(this)">
+					</div>
+				</div>
+				<div class="movies" id="swmovies">
+					<div class="tetralogy">
+						<img class="img" id="starwarsepisodei" src="images/SW_Images/SWE1poster.jpg" onclick="changeswei(this)">
+					</div>
+					<div class="tetralogy">
+						<img class="img" id="starwarsvii" src="images/SW_Images/SWE7poster.jpg" onclick="changeswevii(this)">
+					</div>
+					<div class="tetralogy">
+						<img class="img" id="starwarsrogueone" src="images/SW_Images/SWRO.jpg" onclick="changeswro(this)">
+					</div>
+					<div class="tetralogy">
+						<img class="img" id="starwarsviii" src="images/SW_Images/SWE8poster.jpg" onclick="changesweviii(this)">
+					</div>
+				</div>
+				<div class="movies" id="wwmovies">
+					<div class="tetralogy">
+						<img class="img" id="harrypottersorcererstone" src="images/WW_Images/HP1poster.jpg" onclick="changehpss(this)">
+					</div>
+					<div class="tetralogy">
+						<img class="img" id="harrypotterorderofthephoenix" src="images/WW_Images/HP5poster.jpg" onclick="changehpootp(this)">
+					</div>
+					<div class="tetralogy">
+						<img class="img" id="harrypotterdeathlyhallowspart1" src="images/WW_Images/HP7.1poster.jpg" onclick="changehpdhp1(this)">
+					</div>
+					<div class="tetralogy">
+						<img class="img" id="harrypotterdeathlyhallowspart2" src="images/WW_Images/HP7.2poster.jpg" onclick="changehpdhp2(this)">
+					</div>
+				</div>
+				<div class="movies" id="smmovies">
+					<div class="trilogy">
+						<img class="img" id="spiderman1" src="images/SM_Images/spiderman.jpg" onclick="changesm1(this)">
+					</div>
+					<div class="trilogy">
+						<img class="img" id="spiderman2" src="images/SM_Images/spiderman2.jpg" onclick="changesm2(this)">
+					</div>
+					<div class="trilogy">
+						<img class="img" id="spiderman3" src="images/SM_Images/spiderman3.jpg" onclick="changesm3(this)">
+					</div>
+				</div>
+				<div class="movies" id="bmmovies">
+					<div class="trilogy">
+						<img class="img" id="batmanbegins" src="images/BM_Images/batmanbegins.jpg" onclick="changebb(this)">
+					</div>
+					<div class="trilogy">
+						<img class="img" id="thedarkknight" src="images/BM_Images/thedarkknight.jpg" onclick="changetdk(this)">
+					</div>
+					<div class="trilogy">
+						<img class="img" id="thedarknightrises" src="images/BM_Images/thedarknightrises.jpg"onclick="changetdkr(this)">
+					</div>
+				</div>
+				<div class="movies" id="gzmovies">
+					<div class="tetralogy">
+						<img class="img" id="godzilla1954" src="images/GZ_Images/G(1954)poster.jpg" onclick="changeg1954(this)">
+					</div>
+					<div class="tetralogy">
+						<img class="img" id="godzilla2014" src="images/GZ_Images/G(2014).jpg" onclick="changeg2014(this)">
+					</div>
+					<div class="tetralogy">
+						<img class="img" id="shingodzilla" src="images/GZ_Images/Shin.jpg" onclick="changesg(this)">
+					</div>
+					<div class="tetralogy">
+						<img class="img" id="godzillakingofthemonsters" src="images/GZ_Images/GKOTM.jpg" onclick="changegkotm(this)">
+					</div>
+				</div>
+			</div>
+			<div class="rbbox">
+				<div class="brow">
+					<!--I tried to use only one class, howhever that was not possible, due to it messing up with my Javascript-->
+					<h1 class= "mcudescription" id="mcudescription" onclick="descriptionmcu(this)" >The Marvel Cinematric Universe, better known as the MCU, is a shared universe, with its films, television series, etc. all relating to each other and affecting a shared reality. To the left you can see the 4 most succesful films.</h1>
+					<h2 class= "swdescription" id="swdescription" onclick="descriptionsw(this)" >The Star Wars franchise depicts the adventures of characters "A long time ago in a galaxy far, far away", in which humans and many species of aliens (often humanoid) co-exist with robots, or 'droids', who may assist them in their daily routines; space travel between planets is common due to hyperspace technology. To the left you can see the 4 most succesful films.</h2>
+					<h3 class= "wwdescription" id="wwdescription" onclick="descriptionww(this)" >The central character in the series is Harry Potter, a boy who lives in the fictional town of Little Whinging, Surrey with his aunt, uncle, and cousin – the Dursleys – and discovers, at the age of eleven that he is a wizard, though he lives in the ordinary world of non-magical people known as Muggles. The wizarding world exists parallel to the Muggle world, albeit hidden and in secrecy. His magical ability is inborn, and children with such abilities are invited to attend exclusive magic schools that teach the necessary skills to succeed in the wizarding world. To the left you can see the 4 most succesful films.</h3>
+					<h4 class= "bmdescription" id="bmdescription" onclick="descriptionbm(this)" >The Dark Knight Trilogy is a British-American superhero film trilogy based on the DC Comics character Batman. The trilogy consists of Batman Begins, The Dark Knight and The Dark Knight Rises, directed by Christopher Nolan</h4>
+					<h5 class= "smdescription" id="smdescription" onclick="descriptionsm(this)" >The "Spider-Man" trilogy features the three critically- acclaimed "Spider-Man" films directed by Sam Raimi. Follow Peter Parker in these three adventures as he swings into action fighting super-villains Green Goblin, Doc Ock, Sandman and Venom and wins the heart of Mary Jan</h5>
+					<h6 class= "gzdescription" id="gzdescription" onclick="descriptiongz(this)" >The Godzilla (ゴジラ Gojira) franchise is a Japanese media franchise created and owned by Toho, centered on the fictional kaiju character Godzilla. It is recognized by Guinness World Records to be the longest continuously running movie franchise, having been in ongoing production from 1954 to the present day, with several hiatuses of varying lengths.The film franchise consists of 35 films, 32 produced by Toho and three Hollywood films. To the left you can see the 5 most succesful films.</h6>
+				</div>
+				<div class="brow money">
+					<h1 class= "mcumoney" id="mcumoney" onclick="appearmcu(this)" >This movie franchise has made around 18 billion  dollars at the global box office</h1>
+					<h2 class= "swmoney" id="swmoney" onclick="appearsw(this)" >This movie franchise has made around 9.3 billion dollars at the global box office</h2>
+					<h3 class= "wwmoney" id="wwmoney" onclick="appearww(this)" >This movie franchise has made around 9.1 billion  dollars at the global box office</h3>
+					<h4 class= "bmmoney" id="bmmoney" onclick="appearbm(this)" >This movie franchise has made around 2.4 billion  dollars at the global box office</h4>
+					<h5 class= "smmoney" id="smmoney" onclick="appearsm(this)" >This movie franchise has made around 2.5 billion  dollars at the global box office</h5>
+					<h6 class= "gzmoney" id="gzmoney" onclick="appeargz(this)" >This movie franchise has made around 1.3 billion  dollars at the global box office</h6>
+				</div>
+			</div>
+		</div>
+		<div class= "downbox">
+			<div class= "box">
+				<div class="sbox">
+					<img class="img" id="Marvel" src="images/MCU_Images/Marvel_Cinematic_Universe.png"  onclick="changePicturem(this)">
+					<audio src="audio/AvengersSuiteTheme.mp3" type="audio/mp3" id="avengersmusic"></audio>
+					<audio src="audio/ironman.mp3" type="audio/mp3" id="ironman"></audio>
+					<audio src="audio/luke.mp3" type="audio/mp3" id="luke"></audio>
+					<audio src="audio/godzilla.mp3" type="audio/mp3" id="godzilla2014roar"></audio>					
+				</div>
+				<div class="sbox">
+					<img class="img" src="images/BM_Images/batmantrilogy.jpg" id="Batman" onclick="changePictureb(this)">
+					<audio src="audio/TheDarkKnightTrilogyTheme.mp3" type="audio/mp3" id="batmanmusic"></audio>
+					<audio src="audio/Captainamerica.mp3" type="audio/mp3" id="captainamerica"></audio>
+					<audio src="audio/obiwan.mp3" type="audio/mp3" id="obiwan"></audio>
+					<audio src="audio/mothra.mp3" type="audio/mp3" id="mothraroar"></audio>
+				</div>
+			</div>
+			<div class= "box">
+				<div class="sbox">
+					<img class="img" src="images/SW_Images/Star-wars-logo.jpg" id="Starwars" onclick="changePictures(this)">
+					<audio src="audio/StarWarsMainTheme.mp3" type="audio/mp3" id="starwarsmusic"></audio>
+					<audio src="audio/Thor.mp3" type="audio/mp3" id="thor"></audio>
+					<audio src="audio/hansolo.mp3" type="audio/mp3" id="hansolo"></audio>
+					<audio src="audio/Ghidora.mp3" type="audio/mp3" id="Ghidoraroar"></audio>					
+				</div>
+				<div class="sbox">
+					<img class="img" src="images/SM_Images/spidermantrilogy.jpg" id="Spiderman" onclick="changePicturesm(this)">
+					<audio src="audio/Spiderman.mp3" type="audio/mp3" id="spidermanmusic"></audio>
+					<audio src="audio/hulk.mp3" type="audio/mp3" id="hulk"></audio>						
+					<audio src="audio/leia.mp3" type="audio/mp3" id="leia"></audio>	
+					<audio src="audio/shingodzilla.mp3" type="audio/mp3" id="shingodzillaroar"></audio>
+				</div>
+			</div>
+			<div class="box">
+				<div class="sbox">
+					<img class="img" src="images/WW_Images/wizardingworldlogo.png"  id="Wizardingworld" onclick="changePicturew(this)">
+					<audio src="audio/HarryPotterThemeSong.mp3" type="audio/mp3" id="harrypottermusic"></audio>
+					<audio src="audio/web.mp3" type="audio/mp3" id="spiderman"></audio>
+					<audio src="audio/yoda.mp3" type="audio/mp3" id="yoda"></audio>	
+					<audio src="audio/Rodan.mp3" type="audio/mp3" id="Rodanroar"></audio>				
+				</div>
+				<div class="sbox">
+					<img class="img" src="images/GZ_Images/godzillalogo.jpg" id="Godzilla" onclick="changePictureg(this)">
+					<audio src="audio/GodzillaKOTM-MainTitle-BearMcCreary.mp3" type="audio/mp3" id="godzillamusic"></audio>
+					<audio src="audio/blackpanther.mp3" type="audio/mp3" id="blackpanther"></audio>
+					<audio src="audio/darthvader.mp3" type="audio/mp3" id="darthvader"></audio>
+					<audio src="audio/godzilla1954.mp3" type="audio/mp3" id="godzilla1954roar"></audio>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
+
+

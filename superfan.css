@@ -1,0 +1,331 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: block;
+	background-image: url("images/movienight.jpg");
+}
+
+
+.mcudescription{
+	display: none;
+	background-color: white;
+	font-family:'McLaren', cursive , bold;
+	font-size:165%;
+	margin-top:auto;
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.swdescription{
+	display: none;
+	background-color: white;
+	font-family:'McLaren', cursive , bold;
+	font-size:165%;
+	margin-top:auto;
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.wwdescription{
+	display: none;
+	background-color: white;
+	font-family:'McLaren', cursive , bold;
+	font-size:140%;
+	margin-top:auto;
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.bmdescription{
+	display: none;
+	background-color: white;
+	font-family:'McLaren', cursive , bold;
+	font-size:165%;
+	margin-top:auto;
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.smdescription{
+	display: none;
+	background-color: white;
+	font-family:'McLaren', cursive , bold;
+	font-size:165%;
+	margin-top:auto;
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.gzdescription{
+	display: none;
+	background-color: white;
+	font-family:'McLaren', cursive , bold;
+	font-size:150%;
+	margin-top:auto;
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.mcumoney{
+	display: none;
+	background-color: white;
+	font-family:'McLaren', cursive , bold;
+	font-size:200%;
+	margin-top:auto;
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.swmoney{
+	display: none;
+	background-color: white;
+	font-family:'McLaren', cursive , bold;
+	font-size:175%;
+	margin-top:auto;
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.wwmoney{
+	display: none;
+	background-color: white;
+	font-family:'McLaren', cursive , bold;
+	font-size:140%;
+	margin-top:auto;
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.bmmoney{
+	display: none;
+	background-color: white;
+	font-family:'McLaren', cursive , bold;
+	font-size:200%;
+	margin-top:auto;
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.smmoney{
+	display: none;
+	background-color: white;
+	font-family:'McLaren', cursive , bold;
+	font-size:200%;
+	margin-top:auto;
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.gzmoney{
+	display: none;
+	background-color: white;
+	font-family:'McLaren', cursive , bold;
+	font-size:150%;
+	margin-top:auto;
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.title {
+	display: flex;
+	height: 10%;
+	width: 100%;
+}
+
+.lbox {
+	display: flex;
+	height:100% ;
+	width: 20%;
+}
+
+.center {
+	justify-content: center;
+}
+	
+.upbox {
+	display: flex;
+	height: 45%;
+	width: 100%;
+}
+
+.lbbox {
+    display: flex;
+	height: 100%;
+	width: 50%;
+}
+
+.rbbox {
+	display: block;
+	height: 100%;
+	width: 50%;
+}
+
+.brow{
+	display: flex;
+	height: 50%;
+	width: 100%;
+}
+
+.downbox {
+	display: flex;
+	height: 45%;
+	width: 100%;
+}
+
+.img{
+	max-height: 100%;
+	max-width:100%;
+}
+/*This class, is onlt for those images that will not have extra features, so people won't hover them expecting something*/
+.img2{
+	max-height: 100%;
+	max-width:100%;
+}
+
+.img:hover{
+	cursor: pointer;
+	filter: contrast(110%);
+}
+
+.img:active{
+	 transform:scale(0.9,0.9);
+}
+
+.box {
+	display: block;
+	height: 100%;
+	width: calc(100%/3);
+}
+
+.sbox{
+	display: flex;
+	height: 50%;
+	justify-content: center;
+	width: 100%;
+}
+
+.movies{
+	display: none;
+	height: 100%;
+	width: 100%;
+}
+
+.tetralogy{
+	display: flex;
+	height: 100%;
+	width: 25%;
+}
+
+.trilogy{
+	display: flex;
+	height: 100%;
+	width: calc(100%/3);
+}
+
+.grey {
+	filter: grayscale(100%);
+}
+
+@media only screen and (max-width: 700px) {
+	
+	.upbox {
+		display: block;
+		height: 50%;
+		width: 100%;
+	}
+
+	.lbbox {
+		height: 50%;
+		width: 100%;
+	}
+
+	.rbbox {
+		display: block;
+		height: 50%;
+		width: 100%;
+	}
+
+	.brow{
+		height: 50%;
+		width: 100%;
+	}	
+
+	.downbox {
+		display: block;
+	}
+
+	.box {
+		display: flex;
+		height: calc(100%/3);
+		width: 100%;
+	}
+
+	.sbox{
+		display: flex;
+		height: 100%;
+		width: 50%;
+	}
+
+	.mcudescription{
+		font-size:100%;
+	}
+
+	.swdescription{
+		font-size:100%;
+	}
+
+	.wwdescription{
+		font-size:75%;
+	}
+
+	.bmdescription{
+		font-size:100%;
+	}
+
+	.smdescription{
+		font-size:100%;
+	}
+
+	.gzdescription{
+		font-size:100%;
+	}
+
+	.mcumoney{
+		font-size:100%;
+	}
+
+	.swmoney{
+		font-size:100%;
+	}
+
+	.wwmoney{
+		font-size:75%;
+	}
+
+	.bmmoney{
+		font-size:100%;
+	}
+
+	.smmoney{
+		font-size:100%;
+	}
+
+	.gzmoney{
+		font-size:100%;
+	}
+
+}
+	
