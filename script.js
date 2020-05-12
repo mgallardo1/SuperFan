@@ -593,6 +593,7 @@ function changeg1954(elem){
 	yb.classList.add("grey");
 	zb.classList.add("grey");
 	kotm.classList.add("grey");
+	eb.volume = 1.0;
 }
 
 function changeg2014(elem){
@@ -602,6 +603,7 @@ function changeg2014(elem){
 	yb.classList.remove("grey");
 	zb.classList.add("grey");
 	kotm.classList.add("grey");
+	eb.volume = 1.0;
 }
 
 function changesg(elem){
@@ -611,6 +613,7 @@ function changesg(elem){
 	yb.classList.add("grey");
 	zb.classList.remove("grey");
 	kotm.classList.add("grey");
+	eb.volume = 1.0;
 }
 
 function changegkotm(elem){
@@ -620,4 +623,5 @@ function changegkotm(elem){
 	yb.classList.add("grey");
 	zb.classList.add("grey");
 	kotm.classList.remove("grey");
+	eb.volume = 1.0;
 }
