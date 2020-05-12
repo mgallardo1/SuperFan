@@ -370,7 +370,7 @@ function changePictureg(elem){
 }
 
 var roar1 = function(){
-    eb.pause()	
+    eb.volume = 0.0
 	bc.pause()
 	cc.pause()
 	dc.pause()
@@ -380,7 +380,7 @@ var roar1 = function(){
 }
 
 var roar2 = function(){
-    eb.pause()	
+    eb.volume = 0.0	
 	bc.pause()
 	cc.pause()
 	ac.pause()
@@ -390,7 +390,7 @@ var roar2 = function(){
 }
 
 var roar3 = function(){
-    eb.pause()	
+    eb.volume = 0.0	
 	bc.pause()
 	cc.pause()
 	ac.pause()
@@ -400,7 +400,7 @@ var roar3 = function(){
 }
 
 var roar4 = function(){
-    eb.pause()	
+    eb.volume = 0.0	
 	bc.pause()
 	ec.pause()
 	ac.pause()
@@ -410,7 +410,7 @@ var roar4 = function(){
 }
 
 var roar5 = function(){
-    eb.pause()	
+    eb.volume = 0.0	
 	ec.pause()
 	cc.pause()
 	ac.pause()
@@ -420,7 +420,7 @@ var roar5 = function(){
 }
 
 var roar6 = function(){
-    eb.pause()	
+    eb.volume = 0.0
 	ec.pause()
 	cc.pause()
 	ac.pause()
